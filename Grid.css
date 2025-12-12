@@ -19,3 +19,15 @@
   transform: scale(1.03);
   transition: 0.5s;
 }
+
+@media (max-width: 900px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 500px) {
+  .masonry {
+    column-count: 1;
+  }
+}
