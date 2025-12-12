@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.masonry {
+  width: 800px;
+  column-count: 3;
+  margin: auto;
+  margin-top: 30px;
+  column-gap: 15px;
+}
+.masonry img {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.masonry img:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
